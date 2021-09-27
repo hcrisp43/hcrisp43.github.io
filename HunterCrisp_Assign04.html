@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="HunterCrisp_Assign04.js"></script>
+    <link rel="stylesheet" href="HunterCrisp_Assign04.css">
+</head>
+<body>
+    <div id="page1" class="container1">
+        <h3>Date Functions:</h3>
+        <h3>Input</h3>
+        <div></div>
+
+        <label>1. get_Year</label>
+        <input type="number" name="getYear" id="getYear" min="1" >
+        <div></div>
+
+        <label>2. get_Month</label>
+        <input type="number" name="getMonth" id="getMonth" min="1" >
+        <label>Current Date</label>
+
+        <label>3. is_LeapYear</label>
+        <input type="number" name="isLeapYear" id="isLeapYear" min="1" >
+        <div></div>
+
+        <label>4. get_Century</label>
+        <input type="number" name="getCentury" id="getCentury" min="1">
+        <div></div>
+
+        <label>5. get_DayOfWeek</label>
+        <input type="number" name="getDayOfWeek" id="getDayOfWeek" min="0" max="6" >
+        <label>0-6</label>
+
+        <div></div>
+
+        <input type="submit" name="btnCalculate" value="Calculate" onclick="calculateDate();">
+
+    </div>
+
+    <div id="page2" class="container2" >
+        <h3>Date Functions:</h3>
+        <h3>Output</h3>
+
+        <label>1. The Year Value is</label>
+        <input type="text" name="calcYear" id="calcYear"readonly>
+
+        <label>2. Date - Month</label>
+        <input type="text" name="calcMonth" id="calcMonth" readonly>
+
+        <label>3. Determine a Leap Year</label>
+        <input type="text" name="calcLeapYear" id="calcLeapYear"readonly>
+
+        <label>4. Century Year</label>
+        <input type="text" name="calcCentury" id="calcCentury" readonly>
+
+        <label>5. Day Name</label>
+        <input type="text" name="calcDayOfWeek" id="calcDayOfWeek" readonly>
+
+        <div></div>
+
+        <input type="button" name="btnContinue" value="Continue" onclick="showP3();">
+    </div>
+
+    <div id="page3" class="container3">
+        <label>Enter a word</label>
+        <input type="text" id="palindromeBox" name="palindromeBox">
+        <div></div>
+
+        <label>Is this a Palindrome?</label>
+        <input type="button" id="palindromeButton" name="palindromeButton" value="Yes/No" onclick="isPalindrome();">
+        <input type="text" id="palResult" name="palResult" readonly>
+
+    </div>
+</body>
+</html>

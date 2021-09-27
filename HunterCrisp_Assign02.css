@@ -1,0 +1,21 @@
+body {
+	background-color: #EFE1CE;
+}
+
+.container {
+	display: grid;
+	grid-gap: 10px;
+	margin: auto;
+	justify-content: center;
+	grid-template-columns: auto;
+	background-color: #f2f2f3;
+	width: 20%;
+	padding: 20px;
+}
+
+input[type=button] {
+	margin: auto;
+	width: 50%;
+	height: 50px;
+	background-color: #F5DF4D;
+}

@@ -1,0 +1,104 @@
+body {
+	background-color: #A0DAA9;
+}
+
+h1 {
+	background-color: #FBA90A;
+	border-style: solid;
+}
+
+h2 {
+	background-color: #F7E3D4;
+	border-style: solid;
+	padding: 10px;
+}
+
+select {
+	text-align: center;
+	background-color: #FDED2A;
+}
+
+option {
+	background-color: #EEEEEE;
+}
+
+#Cali {
+	background-color: #FF9D52;
+	border-style: solid;
+}
+
+#blue {
+	background-color: #D4F7EC;
+}
+
+#red {
+	background-color: #ED3B47;
+	width: 150px;
+	margin: auto;
+}
+
+#City {
+	background-color: #FDED2A;
+	text-align: center;
+	border-style: none;
+	color: black;
+}
+
+#popLabel {
+	background-color: #559E54;
+	text-align: center;
+	border-right: 3px solid;
+	padding: 10px;
+}
+
+#population {
+	background-color: #F7E3D4;
+	text-align: center;
+	border-style: none;
+	color: black;
+}
+
+.yearLabel {
+	background-color: #A0DAA9;
+	text-align: center;
+	border: solid;
+	width: 100px;
+}
+
+.container {
+	margin: auto;
+	display: grid;
+	grid-template-columns: auto;
+	justify-content: center;
+	text-align: center;
+	grid-gap: 20px;
+}
+
+.container2 {
+	margin: auto;
+	display: grid;
+	border: 3px solid;
+	grid-template-columns: 200px auto;
+}
+
+.wrapper1 {
+	margin: auto;
+	display: grid;
+	grid-template-columns: 100px 200px;
+	grid-column-gap: 100px;
+	grid-row-gap: 20px;
+}
+
+.wrapper2 {
+	margin: auto;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 10px;
+}
+
+.subButton {
+	background-color: #FF9D52;
+	width: 100px;
+	height: 50px;
+	margin: auto;
+}

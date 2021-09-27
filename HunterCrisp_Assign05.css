@@ -1,0 +1,101 @@
+select {
+	background-color: #FCBA12;
+	border-style: solid;
+}
+
+.container1 {
+	display: grid;
+	justify-content: center;
+	text-align: center;
+	grid-template-rows: auto;
+	grid-row-gap: 10px;
+	background-color: #C6E166;
+	margin: auto;
+	width: 1200px;
+	border-style: solid;
+}
+
+.container2 {
+	display: grid;
+	text-align: center;
+	justify-content: center;
+	grid-template-columns: auto auto;
+	grid-column-gap: 300px;
+	margin-top: 50px;
+}
+
+.container3 {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 0px;
+
+}
+
+.container4 {
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+	grid-column-gap: 0px;
+	grid-row-gap: 10px;
+	margin-top: 30px;
+}
+
+.dayLabel {
+	border-style: solid;
+	border-width: 1px;
+	background-color: #FFE2DC;
+	text-align: center;
+}
+
+.day1 {
+	background-color: #9BD770;
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+}
+
+.day2 {
+	background-color: #FEEC86;
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+}
+
+#title {
+	background-color: #FCBA12;
+	border-style: solid;
+}
+
+#description{
+	background-color: #EFE1CE;
+	border-style: solid;
+}
+
+#topic {
+	background-color: #ACD129;
+	border-style: solid;
+}
+
+#monthLabel {
+	background-color: #ACD129;
+	border-style: solid;
+	border-width: 2px;
+	width: 100px;
+	margin: 0px;
+}
+
+#yearLabel {
+	background-color: #9ECBFF;
+	margin: 0px;
+	border-style: solid;
+	border-width: 2px;
+	width: 100px;
+}
+
+#year {
+	margin: 0px;
+	border-style: solid;
+	border-width: 2px;
+	width: 100px;
+	background-color: #EFE1CE
+}

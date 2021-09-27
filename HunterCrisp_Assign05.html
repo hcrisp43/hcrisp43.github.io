@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="HunterCrisp_Assign05.js"></script>
+    <link rel="stylesheet" href="HunterCrisp_Assign05.css">
+</head>
+<body onload="populateSelect(); populateLabel();">
+	<div class="container1">
+		<h2 id="title">Assignment-05</h2>
+		<h2 id="description">JavaScript Arrays</h2>
+		<h2 id="topic">Create a Calender</h2>
+	</div>
+	<div class="container2">
+		<div class="container3">
+			<p id="monthLabel">Month</p>
+			<select id="selectMonth" name="selectMonth"  onchange="updateCalendar()"></select>
+		</div>
+		
+		<div class="container3">
+			<p id="yearLabel">Year</p>
+			<p id="year">2021</p>
+		</div>
+	</div>
+
+	<div id="calendar" class="container4">
+		<input type="text" class="dayLabel" id="dayLabel1" name="dayLabel1" readonly>
+		<input type="text" class="dayLabel" id="dayLabel2" name="dayLabel2" readonly>
+		<input type="text" class="dayLabel" id="dayLabel3" name="dayLabel3" readonly>
+		<input type="text" class="dayLabel" id="dayLabel4" name="dayLabel4" readonly>
+		<input type="text" class="dayLabel" id="dayLabel5" name="dayLabel5" readonly>
+		<input type="text" class="dayLabel" id="dayLabel6" name="dayLabel6" readonly>
+		<input type="text" class="dayLabel" id="dayLabel7" name="dayLabel7" readonly>
+	</div>
+</body>
+</html>

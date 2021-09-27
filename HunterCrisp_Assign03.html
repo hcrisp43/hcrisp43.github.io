@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="HunterCrisp_Assign03.js"></script>
+	<link rel="stylesheet" href="HunterCrisp_Assign03.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Assignment 3</h1>
+		<h2>Control Structures</h2>
+		<h2 id="Cali">State of California<br>
+		 			  Cities Population</h2>
+
+		<div class="wrapper1">
+			<label id="blue"><b>Cities</b></label>
+			<label id="blue"><b>Name</b></label>
+		
+			<select id="CitySelect" name="CitySelect" onchange="displayCity();" >
+				<option value=""></option>
+				<option value="San Diego">SD</option>
+				<option value="San Jose">SJ</option>
+				<option value="San Francisco">SF</option>
+				<option value="Sacramento">SA</option>
+				<option value="San Bernadino">SB</option>
+				<option value="Los Angeles">LA</option>
+			</select>
+			<input id="City" type="text" name="City" disabled>
+		</div>
+
+		<h2 id="red">Year</h2>
+
+		<div class="wrapper2">
+			<input type="radio" id="year1" name="year" onclick="highlight(this.id);">
+			<label id="yearLabel1" for="year1" class="yearLabel">2000</label>
+
+			<input type="radio" id="year2" name="year" onclick="highlight(this.id);">
+			<label id="yearLabel2" for="year2" class="yearLabel">2020</label>
+
+			<input type="radio" id="year3" name="year" onclick="highlight(this.id);">
+			<label id="yearLabel3" for="year3" class="yearLabel">2021</label>
+		</div>
+
+		<div class="container2">
+			<label id="popLabel"><b>Population</b></label>
+			<input type="text" id="population" name="population" disabled>
+		</div>
+
+		<input type="submit" name="submit" class="subButton">
+	</div>
+</body>
+</html>

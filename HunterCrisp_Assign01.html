@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="HunterCrisp_Assign01.css">
+</head>
+
+<body>
+	<div class="container">
+		<input type="text" id="display" name="display" readonly>
+
+		<div class="calculator">
+			<input type="button" name="1" value="1" onclick="addToDisplay(this.value);">
+			<input type="button" name="2" value="2" onclick="addToDisplay(this.value);">
+			<input type="button" name="3" value="3" onclick="addToDisplay(this.value);">
+			<input type="button" class="operand" name="+" value="+" 
+			onclick="addToDisplay(this.value);">
+			<input type="button" name="4" value="4" onclick="addToDisplay(this.value);">
+			<input type="button" name="5" value="5" onclick="addToDisplay(this.value);">
+			<input type="button" name="6" value="6" onclick="addToDisplay(this.value);">
+			<input type="button" class="operand" name="-" value="-" 
+			onclick="addToDisplay(this.value);">
+			<input type="button" name="7" value="7" onclick="addToDisplay(this.value);">
+			<input type="button" name="8" value="8" onclick="addToDisplay(this.value);">
+			<input type="button" name="9" value="9" onclick="addToDisplay(this.value);">
+			<input type="button" class="operand" name="x" value="x" 
+			onclick="addToDisplay(this.value);">
+			<input type="button" id="clear" name="C" value="C" onclick="clearDisplay();">
+			<input type="button" name="0" value="0" onclick="addToDisplay(this.value);">
+			<input type="button" id="equals" name="=" value="=" onclick="calculate();">
+			<input type="button" class="operand" name="/" value="/" 
+			onclick="addToDisplay(this.value);">
+		</div>
+		<script>
+			var display = document.getElementById("display");
+
+			function addToDisplay(val)
+			{
+				display.value += val;
+			}
+
+			function clearDisplay()
+			{
+				display.value = "";
+			}
+
+			function calculate()
+			{
+				//Replace x with *
+				var value = display.value.replace(/x/g,"*");
+				display.value = eval(value);
+			}
+		</script>
+	</div>
+</body>
+</html>

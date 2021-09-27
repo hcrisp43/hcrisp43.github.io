@@ -1,0 +1,56 @@
+body {
+	background-color: #EFE1CE;
+}
+
+h3 {
+	border-style: solid;
+	background-color: #D4EC74;
+	padding: 10px;
+}
+
+input[type=number], input[type=text] {
+	background-color: #98DBF5;
+}
+
+input[type=submit] {
+	background-color: #FCCB1A;
+	margin-top: 25px;
+}
+
+#palindromeBox {
+	width: 300px;
+}
+
+#palindromeButton {
+	width: 100px;
+}
+
+#palResult {
+	border-style: none;
+}
+
+.container1 {
+	
+	display: grid;
+	justify-content: left;
+	text-align: center;
+	grid-template-columns: auto auto auto;
+	grid-column-gap: 100px;
+}
+
+.container2 {
+	
+	display: none;
+	justify-content: left;
+	text-align: center;
+	grid-template-columns: auto 300px;
+	grid-column-gap: 100px;
+}
+
+.container3 {
+	display: none;
+	justify-content: left;
+	grid-template-columns: auto auto auto;
+	grid-column-gap: 10px;
+	grid-row-gap: 20px;
+}
