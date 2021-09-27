@@ -1,4 +1,3 @@
-# hcrisp43.github.io
 # Front End Web Development Assignments
 ## Webpages made using HTML/CSS/JS
 ### [Homepage](https://hcrisp43.github.io/)
