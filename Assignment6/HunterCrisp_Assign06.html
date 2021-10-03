@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="HunterCrisp_Assign06.js"></script>
+    <link rel="stylesheet" href="HunterCrisp_Assign06.css">
+</head>
+<body>
+	<div class="container2">
+		<h2 id="title">Assignment-06 (Strings)</h2>
+		<h2 id="description">Letter Substitution</h2>
+	
+		<input type="button" id="encrypt" name="encryptButton" value="Encrypt" onclick="encrypt();">
+		
+		<div id="div1" class="container1">
+			<label>Input Key</label>
+			<input type="text" id="inputKey" name="inputKey">
+
+			<label>Plain Text Message</label>
+			<input type="text" id="plainText" name="plainText">
+
+			<label>Cipher Text Message</label>
+			<input type="text" id="cipherText1" name="cipherText1" readonly>
+
+			<label>Receivers encrypted input key</label>
+			<input type="text" id="encryptKey1" name="encryptKey1" readonly>
+		</div>
+
+		<input type="button" id="decrypt" name="decryptButton" value="Decrypt" onclick="decrypt()">
+
+		<div id="div2" class="container1">
+			<label>Receivers encrypted input key</label>
+			<input type="text" id="encryptKey2" name="encryptKey2">
+
+			<label>Cipher text message</label>
+			<input type="text" id="cipherText2" name="cipherText2">
+
+			<label>Decrpyted text message</label>
+			<input type="text" id="decryptText" name="decryptText" readonly>
+		</div>
+	</div>
+</body>
+</html>

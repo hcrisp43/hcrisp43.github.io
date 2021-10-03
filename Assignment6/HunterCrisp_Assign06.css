@@ -1,0 +1,47 @@
+.container1 {
+	display: grid;
+	justify-content: center;
+	text-align: center;
+	grid-template-columns: auto auto;
+	grid-row-gap: 10px;
+	grid-column: 50px;
+	margin: auto;
+	border-style: solid;
+	padding: 10px;
+}
+
+.container2 {
+	display: grid;
+	justify-content: center;
+	margin: auto;
+	grid-template-rows: auto;
+	grid-row-gap: 20px;
+}
+
+#title {
+	border-style: solid;
+	background-color: #DADAD2;
+}
+
+#description {
+	border-style: solid;
+	background-color: #F9AA0B;
+}
+
+#div1 {
+	background-color: #D8EA8F;
+}
+
+#encrypt {
+	background-color: #7AB9D1;
+	width: 100px;
+}
+
+#decrypt {
+	background-color: #FDDB87;
+	width: 100px;
+}
+
+#div2 {
+	background-color: #FDDB87;
+}
