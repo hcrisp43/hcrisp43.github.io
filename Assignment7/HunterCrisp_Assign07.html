@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="HunterCrisp_Assign07.js"></script>
+    <link rel="stylesheet" href="HunterCrisp_Assign07.css">
+</head>
+<body onload="populateSelect(); updateDate();">
+	<div class="container1">
+		<h2 id="title">Assignment - 07</h2>
+		<div></div>
+
+		<h2 id="description">JavaScript Objects</h2>
+		<div></div>
+
+		<h2 id="subtitle">Gas Mileage Consumption</h2>
+		<div class="container2">
+			<label>Date</label>
+			<input type="text" id="Date" name="Date" readonly>
+		</div>
+	</div>
+	<div class="container3">
+		<label id="destLabel">Destination</label>
+		<select id="destination" name="destination"></select>
+
+		<label id="vehicleLabel" name="vehicleLabel">Type of Vehicle</label>
+		<div class="container4">
+			<label>Compact</label>
+			<label>45 miles/gallon</label>
+			<input type="radio" name="carCheck" value="45">
+
+			<label>Sub Compact</label>
+			<label>113 miles/gallon</label>
+			<input type="radio" name="carCheck" value="113">
+
+			<label>Station Wagon</label>
+			<label>26 miles/gallon</label>
+			<input type="radio" name="carCheck" value="26">
+		</div>
+	</div>
+	<div class="container2">
+		<label>Price of fuel per gallon $</label>
+		<input type="text" id="priceInput" name="priceInput">
+
+		<label>Total cost of fuel (entire trip) $</label>
+		<input type="text" id="totalCost" name="totalCost" readonly>
+
+		<label id="travelTime">Travel Time = <br>Distance/Rate <br>Rate 65 mph</label>
+		<label>Start</label>
+
+		<label>AM</label>
+		<div class="container5">
+			<label>8:00</label>
+			<input type="radio" name="timeStart" value="8">
+
+			<label>9:00</label>
+			<input type="radio" name="timeStart" value="9">
+
+			<label>10:00</label>
+			<input type="radio" name="timeStart" value="10">
+
+			<label>11:00</label>
+			<input type="radio" name="timeStart" value="11">
+		</div>
+
+		<label>PM</label>
+		<div class="container5">
+			<label>12:00</label>
+			<input type="radio" name="timeStart" value="12">
+
+			<label>1:00</label>
+			<input type="radio" name="timeStart" value="13">
+
+			<label>2:00</label>
+			<input type="radio" name="timeStart" value="14">
+
+			<label>3:00</label>
+			<input type="radio" name="timeStart" value="15">
+
+			<label>4:00</label>
+			<input type="radio" name="timeStart" value="16">
+
+			<label>5:00</label>
+			<input type="radio" name="timeStart" value="17">
+		</div>
+
+		<input type="button" id="calcButton" onclick="calculateFinal()" value="Calculate">
+		<input type="text" id="finalTime" name="finalTime" readonly>
+	</div>
+</body>
+</html>

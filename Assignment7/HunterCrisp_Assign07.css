@@ -1,0 +1,95 @@
+body {
+	background-color: #EEEEEE;
+}
+.container1 {
+	margin: auto;
+	display: grid;
+	justify-content: center;
+	text-align: center;
+	grid-template-columns: auto auto;
+	grid-row-gap: 10px;
+	grid-column-gap: 40px;
+}
+
+.container2 {
+	display: grid;
+	justify-content: center;
+	text-align: center;
+	grid-template-columns: auto auto;
+	grid-column-gap: 30px;
+	height: 27px;
+	margin-top: 25px;
+}
+
+.container3 {
+	margin: auto;
+	display: grid;
+	justify-content: center;
+	text-align: center;
+	grid-template-columns: 150px auto;
+	grid-row-gap: 30px;
+}
+
+.container4 {
+	background-color: #FFCCC7;
+	border: solid 1px;
+	display: grid;
+	justify-content: center;
+	text-align: center;
+	grid-template-columns: auto auto auto;
+	grid-row-gap: 30px;
+	grid-column-gap: 30px;
+}
+
+.container5 {
+	display: grid;
+	justify-content: center;
+	text-align: center;
+	grid-template-columns: auto auto;
+	grid-column-gap: 5px;
+	grid-row-gap: 10px;
+}
+
+#title {
+	border: solid;
+	background-color: #FFCCC7;
+}
+
+#description {
+	border: solid;
+	background-color: #FFF2A9;
+}
+
+#subtitle {
+	border: solid;
+	width: 300px;
+	background-color: #A5C2F8;
+}
+
+#Date {
+	width: 75px;
+	margin-bottom: 5px;
+	border: solid 2px;
+}
+
+#destLabel {
+	border: solid 1px;
+}
+
+#vehicleLabel {
+	border: solid 1px;
+	background-color: #FDE281;
+	height: 27px;
+}
+
+#travelTime {
+	background-color: #5BEE59;
+	border: solid 1px;
+}
+
+#calcButton {
+	width: 100px;
+	background-color: #FD4117;
+	color: white;
+}
+

@@ -1,0 +1,71 @@
+td {
+	border: solid 0.5px;
+}
+
+.container1 {
+	display: grid;
+	margin: auto;
+	justify-content: center;
+	text-align: center;
+	grid-row-gap: 10px;
+}
+
+.container2 {
+	display: grid;
+	margin: auto;
+	justify-content: center;
+	text-align: center;
+	grid-template-columns: 200px 75px 75px 100px;
+	grid-column-gap: 0px;
+}
+
+.phoneTable {
+	padding-top: 20px;
+	border-spacing: 0px;
+}
+
+#generateList {
+	color: #EEEEEE;
+	
+	background-color: #FF1424;
+}
+
+#title {
+	background-color: #F8BE49;
+	border: solid 1px;
+}
+
+#description {
+	background-color: #E6E6E6;
+	border: solid 1px;
+}
+
+#subtitle {
+	background-color: #FFD699;
+	border: solid 1px;
+}
+
+#tableTitle {
+	background-color: #E6E6E6;
+	border: solid 1px;
+}
+
+#tableLabel1 {
+	background-color: #FEFE52;
+	border: solid 1px;
+}
+
+#tableLabel2 {
+	background-color: #5C95FF;
+	border: solid 1px;
+}
+
+#tableLabel3 {
+	background-color: #FDC63A;
+	border: solid 1px;
+}
+
+#tableLabel4 {
+	background-color: #4FA24E;
+	border: solid 1px;
+}

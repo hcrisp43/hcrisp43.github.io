@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="HunterCrisp_Assign09.js"></script>
+    <link rel="stylesheet" href="HunterCrisp_Assign09.css">
+</head>
+<body onload="">
+	<div class="container1">
+		<h2 id="title">Assignment - 09</h2>
+		
+
+		<h2 id="description">Creating a Table</h2>
+		
+
+		<h2 id="subtitle">Document Object Model (DOM)</h2>
+
+		<h2 id="tableTitle">Cell Phones by Brand</h2>
+	</div>
+	<div class="container2">
+		<label id="tableLabel1">Description</label>
+		<label id="tableLabel2">Qty</label>
+		<label id="tableLabel3">SKU</label>
+		<label id="tableLabel4">Color</label>
+	</div>
+	<div class="container1">
+		<table id="phoneTable" class="phoneTable">
+		</table>
+
+		<div></div>
+
+		<input id="generateList" type="button" name="generateList" onclick="phoneList.forEach(createRow);" value="Generate List">
+	</div>
+	
+</body>
+</html>
