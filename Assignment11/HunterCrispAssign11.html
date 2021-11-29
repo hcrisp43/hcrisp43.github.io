@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="HunterCrispAssign11.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="HunterCrispAssign11.css">
+</head>
+<body onload="pageLoad()">
+    <div id="page1" class="container1">
+        <h2 id="title">Assignment - 11</h2>
+                
+
+        <h2 id="description">JavaScript and jQuery</h2>
+                
+
+        <h2 id="subtitle">Crete a captcha using jQuery</h2>
+
+        <h3 id="errorMsg1">Text does not match captcha. Refreshing...</h3>
+
+        <h2 id="captcha"></h2>
+
+        <input type="text" id="userText" name="userText">
+
+        <input type="button" id="compareButton" name="compareButton" onclick="compareCap()" value="Enter">
+
+    </div>
+    <div id="page2" class="container3">
+        <h2 id="page2Title"><i>REGISTRATION</i></h2>
+
+        <div class="container2">
+            <label>First Name</label>
+            <input type="text" id="firstName" name="firstName">
+            <div></div>
+
+            <label>Last Name</label>
+            <input type="text" id="lastName" name="lastName">
+            <div></div>
+
+            <label>E-mail Address</label>
+            <input type="text" id="emailAdd" name="emailAdd">*
+        </div>
+
+        <h2 id="page2Pass"><i>Create Password</i></h2>
+
+        <div id="passwordContainer" class="container2">
+            <label>Password</label>
+            <input type="password" id="passwordFirst" name="passwordFirst">*
+
+            <label>Re-enter Password</label>
+            <input type="password" id="passwordSecond" name="passwordSecond">*
+
+            <div></div>
+            <p><i>Password should contain<br>
+                at least 1 lowercase<br>
+                1 uppercase, and 1 special<br>
+                character ()^@&#*$+%=<br>
+                with minimum of 12 chars in length</i></p>
+        </div>
+
+        <div class="container4">
+            <input type="button" id="submitButton" name="submitButton" value="Submit" onclick="checkReq()">
+            <div id="errorMsg2Div">
+                <p id="errorMsg2">Invalid email address, invalid password</p>
+                <p id="successMsg">Successfully entered the required information.</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

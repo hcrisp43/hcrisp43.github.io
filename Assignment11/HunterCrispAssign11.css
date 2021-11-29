@@ -1,0 +1,108 @@
+body {
+	background-color: #FEFEFE;
+}
+
+.container1 {
+	display: grid;
+	margin: auto;
+	justify-content: center;
+	text-align: center;
+	grid-row-gap: 10px;
+}
+
+.container2 {
+	display: grid;
+	margin: auto;
+	justify-content: center;
+	text-align: center;
+	grid-template-columns: auto auto auto;
+	grid-column-gap: 20px;
+	grid-template-rows: 50px 50px 50px;
+}
+
+.container3 {
+	background-color: #00ffff;
+	width: 600px;
+	height: 550px;
+	display: grid;
+	margin: auto;
+	justify-content: center;
+	text-align: center;
+	grid-template-rows: 50px 125px 50px auto 50px;
+	grid-row-gap: 10px;
+}
+
+.container4 {
+	display: grid;
+	margin: auto;
+	justify-content: center;
+	text-align: center;
+	grid-template-columns: auto auto;
+	grid-column-gap: 100px;
+}
+
+#passwordContainer {
+	grid-template-rows: auto auto auto;
+}
+
+#title {
+	border: solid 1px;
+	background-color: #ffccdd;
+}
+
+#description {
+	border: solid 1px;
+	background-color: #cce6ff;
+}
+
+#subtitle {
+	border: solid 1px;
+	background-color: #79ff4d;
+}
+
+#captcha {
+	padding-top: 30px;
+	height: 60px;
+	border: solid 1px;
+	background-color: #33ccff;
+	text-align: center;
+	width: 400px;
+}
+
+#userText {
+	background-color: #ffeb99;
+	border: solid 1px;
+	height: 40px;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+#compareButton {
+	margin: auto;
+	width: 100px;
+	height: 50px;
+}
+
+#firstName, #lastName, #emailAdd {
+	height: 20px;
+}
+
+#passwordContainer {
+	grid-row-gap: 5px;
+}
+
+#submitButton {
+	width: 75px;
+	text-align: center;
+	background-color: #ff0000;
+	color: #FFFFFF;
+	height: 30px;
+}
+
+#passwordFirst, #passwordSecond {
+	height: 20px;
+}
+
+#errorMsg2Div {
+	width: 253.72px;
+}

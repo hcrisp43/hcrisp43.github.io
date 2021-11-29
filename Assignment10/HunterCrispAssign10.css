@@ -1,0 +1,48 @@
+p {
+	font-size: x-large;
+}
+
+.container1 {
+	display: grid;
+	margin: auto;
+	justify-content: center;
+	text-align: center;
+	grid-row-gap: 10px;
+}
+
+.container2 {
+	display: grid;
+	margin: auto;
+	justify-content: center;
+	text-align: center;
+	grid-template-columns: auto auto;
+	column-gap: 10px;
+}
+
+.dot {
+	height: 15px;
+	width:  15px;
+	border-radius: 4px;
+	background-color: red;
+	position: absolute;
+}
+
+#title {
+	border: solid 1px;
+	background-color: #ffccdd;
+}
+
+#description {
+	border: solid 1px;
+	background-color: #cce6ff;
+}
+
+#subtitle {
+	border: solid 1px;
+	background-color: #79ff4d;
+}
+
+#part3 {
+	border: solid 1px;
+	background-color: #ffff80;
+}

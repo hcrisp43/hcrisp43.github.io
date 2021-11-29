@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="HunterCrispAssign13.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    <link rel="stylesheet" href="HunterCrispAssign13.css">
+    <link rel="stylesheet" href="jquery-ui-1.13.0.custom/jquery-ui.css">
+</head>
+<body onload="chooseOption('drag');">
+    <div id="page1" class="container1">
+        <h2 id="title">Assignment - 13</h2>
+        <h2 id="description">jQuery User Interface</h2>
+    </div>
+    <div class="container2">
+        <div id="leftMenu">
+            <h3>Interactions</h3>
+            <ul> 
+                <li><a href="#centerContent" onclick="chooseOption('drag');">Draggable</a></li>
+                <li><a href="#centerContent" onclick="chooseOption('drop');">Dropable</a></li>
+                <li><a href="#centerContent" onclick="chooseOption('resize');">Resizable</a></li>
+                <li><a href="#centerContent" onclick="chooseOption('select');">Selectable</a></li>
+                <li><a href="#centerContent" onclick="chooseOption('sort');">Sortable</a></li>
+            </ul>
+            <br>
+            <h3>Widgets</h3>
+            <ul>
+                <li><a href="#centerContent" onclick="chooseOption('date');">Datepicker</a></li>
+                <li><a href="#centerContent" onclick="chooseOption('dialog');">Dialog</a></li>
+                <li><a href="#centerContent" onclick="chooseOption('menu');">Menu</a></li>
+                <li><a href="#centerContent" onclick="chooseOption('selectmenu');">Selectmenu</a></li>
+                <li><a href="#centerContent" onclick="chooseOption('slider');">Slider</a></li>
+            </ul>
+        </div>
+        <div id="centerContent">
+            <div id="dragButton1">
+                <p>Drag this</p>
+            </div>
+            <div id="dropSection">
+                <div id="dragButton2">
+                    <p>Drag this</p>
+                </div>
+                <div id="dropArea" class="dropArea">
+                    <p>Drop it here</p>
+                </div>
+            </div>
+            <div id="resizeButton1">
+                <p>Resize this</p>
+            </div>
+            <div id="selectSection">
+                <label>Selectable items in a list</label>
+                <ol id="selectableList">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ol>
+            </div>
+            <div id="sortSection">
+                <label>Sortable list</label>
+                <ol id="sortableList">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ol>
+            </div>
+            <div id="dateSection">
+                <label>Date picker</label>
+                <input type="text" id="datePicker">
+            </div>
+            <div id="dialogSection">
+                <div id="dialogDiv" title="Dialog widget">
+                    <p>This dialog appears</p>
+                </div>
+            </div>
+            <div id="menuSection">
+                <label>Menu</label>
+                <ul id="menuList">
+                    <li><div>List 1</div>
+                        <ul>
+                            <li><div>Item 1</div></li>
+                            <li><div>Item 2</div></li>
+                        </ul>
+                    </li>
+                    <li><div>List 2</div>
+                        <ul>
+                            <li><div>List 3</div>
+                                <ul>
+                                    <li><div>Item 3</div></li>
+                                    <li><div>Item 4</div></li>
+                                    <li><div>Item 5</div></li>
+                                </ul>
+                            </li>
+                            <li><div>Item 6</div></li>
+                            <li><div>Item 7</div></li>
+                        </ul>
+                    </li>
+                    <li><div>Item 8</div></li>
+                </ul>
+            </div>
+            <div id="selectMenuSection">
+                <label>Select Menu</label>
+                <br>
+                <select id="selectMenu">
+                    <option>First Option</option>
+                    <option>Second Option</option>
+                    <option>Third Option</option>
+                    <option>Fourth Option</option>
+                </select>
+            </div>
+            <div id="sliderSection">
+                <div id="slider"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html

@@ -1,0 +1,129 @@
+body {
+	background-color: #FEFEFE;
+}
+
+.container1 {
+	display: grid;
+	margin: auto;
+	justify-content: center;
+	text-align: center;
+	grid-row-gap: 10px;
+}
+
+.container2 {
+	display: grid;
+	margin: auto;
+	text-align: center;
+	grid-template-columns: 150px auto;
+	justify-content: left;
+}
+
+.dropArea{
+	border: solid 1px;
+	height: 200px;
+	width: 200px;
+}
+
+.dropArea2 {
+	border: solid 1px;
+	background-color: #F5DF4D;
+	height: 200px;
+	width: 200px;
+}
+
+#title {
+	border: solid 1px;
+	background-color: #ffccdd;
+}
+
+#description {
+	border: solid 1px;
+	background-color: #cce6ff;
+}
+
+#dragButton1, #dragButton2 {
+	border: solid 1px;
+	background-color: #0072B5;
+	color: white;
+	width: 100px;
+	height: 50px;
+}
+
+#leftMenu {
+	background-color: #EEEEEE;
+}
+
+#centerContent {
+	justify-content: center;
+	margin: auto;
+
+	padding: 50px;
+}
+
+#dropSection {
+	display: grid;
+	margin: auto;
+	justify-content: center;
+	text-align: center;
+	grid-template-columns: auto auto;
+	grid-column-gap: 300px;
+}
+
+#dropArea1 {
+	border: solid 1px;
+	background-color: #FEEEEE;
+}
+
+#resizeButton1 {
+	border: solid 1px;
+	width: 150px;
+	height: 150px;
+	padding: 0.5em;
+}
+
+#selectSection {
+	
+}
+
+#selectableList {
+	list-style-type: none;
+}
+
+#selectableList .ui-selecting {
+	background: #FECA40;
+}
+
+#selectableList .ui-selected {
+	background: #F39814;
+}
+
+#selectableList li {
+	border: solid 1px;
+}
+
+
+#sortableList {
+	list-style-type: none;
+}
+
+#sortableList li {
+	border: solid 1px;
+	width: 100px;
+	height: 50px;
+}
+
+#dialogDiv {
+	border: solid 1px;
+}
+
+#menuList {
+	list-style-type: none;
+}
+
+#selectMenu {
+	border: solid 1px;
+}
+
+ul li div {
+	border: solid 1px;
+}
