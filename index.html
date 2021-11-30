@@ -1,16 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap">
+	<link rel="stylesheet" href="Theme/jquery-ui-1.13.0.custom/jquery-ui.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<script src="Theme/jquery-ui-1.13.0.custom/jquery-ui.js"></script>
+	<script>
+  		$( function() {
+    		$( "#menu" ).menu();
+  		} );
+  	</script>
+</head>
+<style>
+	body {
+		font-family: 'Roboto Slab', serif;
+		background-color: #212121;
+		color: #EEEEEE;
+	}
+
+	.container {
+		display: grid;
+		grid-template-areas: 'header header'
+		'menu main'
+		'menu main';
+
+		grid-gap: 10px;
+	}
+
+	.titleBar {
+		grid-area: header;
+	}
+
+	.menuBar {
+		grid-area: menu;
+	}
+
+	.mainBody {
+		grid-area: main;
+	}
+
+</style>
 <body>
-	<a href="/Assignment1/HunterCrisp_Assign01.html">Simple Calculator</a><br>
-	<a href="/Assignment2/HunterCrisp_Assign02.html">Quadratic Equation Calculator</a><br>
-	<a href="/Assignment3/HunterCrisp_Assign03.html">Select and Radio button functions</a><br>
-	<a href="/Assignment4/HunterCrisp_Assign04.html">Practice with Date object, Palindrome tester</a><br>
-	<a href="/Assignment5/HunterCrisp_Assign05.html">More Date object practice, Dynamic calendar for 2021</a><br>
-	<a href="/Assignment6/HunterCrisp_Assign06.html">String and array encrypting/decrypting</a><br>
-	<a href="/Assignment7/HunterCrisp_Assign07.html">JavaScript Objects</a><br>
-	<a href="/Assignment9/HunterCrisp_Assign09.html">JavaScript DOM</a><br>
-	<a href="/Assignment10/HunterCrispAssign10.html">Event Listeners</a><br>
-	<a href="/Assignment11/HunterCrispAssign11.html">jQuery Captcha</a><br>
-	<a href="/Assignment13/HunterCrispAssign13.html">jQuery UI</a><br>
+	<div class="container">
+		<div class="titleBar">
+			<h1>Intro to Front End Development I</h1>
+		</div>
+
+		<ul id="menu" class="menuBar">
+			<li><a href="/Assignment1/HunterCrisp_Assign01.html">Simple Calculator</a></li>
+			<li><a href="/Assignment2/HunterCrisp_Assign02.html">Quadratic Equation Calculator</a></li>
+			<li><a href="/Assignment3/HunterCrisp_Assign03.html">Select and Radio button functions</a></li>
+			<li><a href="/Assignment4/HunterCrisp_Assign04.html">Practice with Date object, Palindrome tester</a></li>
+			<li><a href="/Assignment5/HunterCrisp_Assign05.html">More Date object practice, Dynamic calendar for 2021</a></li>
+			<li><a href="/Assignment6/HunterCrisp_Assign06.html">String and array encrypting/decrypting</a></li>
+			<li><a href="/Assignment7/HunterCrisp_Assign07.html">JavaScript Objects</a></li>
+			<li><a href="/Assignment9/HunterCrisp_Assign09.html">JavaScript DOM</a></li>
+			<li><a href="/Assignment10/HunterCrispAssign10.html">Event Listeners</a></li>
+			<li><a href="/Assignment11/HunterCrispAssign11.html">jQuery Captcha</a></li>
+			<li><a href="/Assignment13/HunterCrispAssign13.html">jQuery UI</a></li>
+		</ul>
+
+		<div class="mainBody">
+			<h2>Assignment #</h2>
+		</div>
+	</div>
 </body>
 </html>
