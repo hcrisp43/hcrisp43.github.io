@@ -10,5 +10,5 @@
 ### Assignment 7: [JavaScript Objects](https://hcrisp43.github.io/Assignment7/HunterCrisp_Assign07.html)
 ### Assignment 8: [JavaScript DOM](https://hcrisp43.github.io/Assignment9/HunterCrisp_Assign09.html)
 ### Assignment 10: [Event Listeners](https://hcrisp43.github.io/Assignment10/HunterCrispAssign10.html)
-### Assignment 11: [jQuery](https://hcrisp43.github.io/Assignment11/HunterCrispAssign11.html)
+### Assignment 11: [jQuery Captcha](https://hcrisp43.github.io/Assignment11/HunterCrispAssign11.html)
 ### Assignment 13: [jQuery User Interface](https://hcrisp43.github.io/Assignment13/HunterCrispAssign13.html)
