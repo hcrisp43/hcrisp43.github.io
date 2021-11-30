@@ -24,10 +24,16 @@
 
 	.container {
 		display: grid;
-		grid-template-areas: 'header header'
-		'menu main';
-
+		grid-template-areas: 'header header header header'
+		'menu main main main';
+		padding: 10px;
 		grid-gap: 10px;
+	}
+
+	.container > div {
+		text-align: center;
+		padding: 20px 0;
+		font-size: 30px;
 	}
 
 	.titleBar {
@@ -45,9 +51,7 @@
 </style>
 <body>
 	<div class="container">
-		<div class="titleBar">
-			<h1>Intro to Front End Development I</h1>
-		</div>
+		<div class="titleBar">Intro to Front End Development I</div>
 
 		<ul id="menu" class="menuBar">
 			<li><a href="/Assignment1/HunterCrisp_Assign01.html">Simple Calculator</a></li>
@@ -63,9 +67,7 @@
 			<li><a href="/Assignment13/HunterCrispAssign13.html">jQuery UI</a></li>
 		</ul>
 
-		<div class="mainBody">
-			<h2>Assignment #</h2>
-		</div>
+		<div class="mainBody">Assignment #</div>
 	</div>
 </body>
 </html>
