@@ -1,6 +1,6 @@
 var userInterface = ["#dragButton1", "#dropSection", "#resizeButton1", 
 "#selectSection", "#sortSection", "#dateSection", "#dialogSection",
-"#menuSection", "#selectMenuSection", "#sliderSelection"];
+"#menuSection", "#selectMenuSection", "#sliderSection"];
 
 function chooseOption(val)
 {

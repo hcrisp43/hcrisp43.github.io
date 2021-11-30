@@ -124,6 +124,10 @@ body {
 	border: solid 1px;
 }
 
+#sliderSection {
+	width: 500px;
+}
+
 ul li div {
 	border: solid 1px;
 }
