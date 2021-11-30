@@ -1,4 +1,5 @@
 # Front End Web Development Assignments
+## INF 651 Fall 2021 Fort Hays State University
 ## Webpages made using HTML/CSS/JS
 ### [Homepage](https://hcrisp43.github.io/)
 ### Assignment 1: [Simple Calculator](https://hcrisp43.github.io/Assignment1/HunterCrisp_Assign01.html)
