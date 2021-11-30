@@ -24,9 +24,8 @@
 
 	.container {
 		display: grid;
-		grid-template-areas: 'header header header header'
-		'menu main main main';
-		grid-gap: 10px;
+		grid-template-rows: auto auto;
+		text-align: center;
 	}
 
 	.container > div {
@@ -35,16 +34,8 @@
 		font-size: 30px;
 	}
 
-	.titleBar {
-		grid-area: header;
-	}
-
-	.menuBar {
-		grid-area: menu;
-	}
-
-	.mainBody {
-		grid-area: main;
+	.ui-menu .ui-menu-item {
+		margin: 20px;
 	}
 
 </style>
@@ -65,8 +56,6 @@
 			<li><a href="/Assignment11/HunterCrispAssign11.html">jQuery Captcha</a></li>
 			<li><a href="/Assignment13/HunterCrispAssign13.html">jQuery UI</a></li>
 		</ul>
-
-		<div class="mainBody">Assignment #</div>
 	</div>
 </body>
 </html>
