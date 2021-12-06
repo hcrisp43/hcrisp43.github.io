@@ -13,4 +13,4 @@
 ### Assignment 10: [Event Listeners](https://hcrisp43.github.io/Assignment10/HunterCrispAssign10.html)
 ### Assignment 11: [jQuery Captcha](https://hcrisp43.github.io/Assignment11/HunterCrispAssign11.html)
 ### Assignment 13: [jQuery User Interface](https://hcrisp43.github.io/Assignment13/HunterCrispAssign13.html)
-### Assignment 14: [Final Project: Sudoku](https://hcrisp43.github.io/FinalProject/HunterCrisp_final_project_sudoku.html)
+### Final Project: [Sudoku](https://hcrisp43.github.io/FinalProject/HunterCrisp_final_project_sudoku.html)
