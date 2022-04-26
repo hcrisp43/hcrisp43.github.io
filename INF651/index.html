@@ -11,7 +11,11 @@
 	<script src="/../Theme/jquery-ui-1.13.0.custom/jquery-ui.js"></script>
 	<script>
   		$( function() {
-    		$( "#menu" ).menu();
+    		$("#menu").menu();
+    		$("#returnButton").button();
+    		$("#returnButton").click(function() {
+    			window.location = 'https://hcrisp43.github.io/';
+    		});
   		} );
   	</script>
 </head>
@@ -38,10 +42,18 @@
 		margin: 20px;
 	}
 
+	#pageHead {
+		display: grid;
+		grid-template-columns: auto auto;
+	}
+
 </style>
 <body>
 	<div class="container">
-		<div class="titleBar">Intro to Front End Development I</div>
+		<div id="pageHead">
+			<button id="returnButton">Return</button>
+			<div class="titleBar">Intro to Front End Development I</div>
+		</div>
 
 		<ul id="menu" class="menuBar">
 			<li><a href="/INF651/Assignment1/HunterCrisp_Assign01.html">Simple Calculator</a></li>
