@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap">
+	<link rel="stylesheet" href="Theme/jquery-ui-1.13.0.custom/jquery-ui.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<script src="/../Theme/jquery-ui-1.13.0.custom/jquery-ui.js"></script>
+	<script>
+  		$( function() {
+    		$( "#menu" ).menu();
+  		} );
+  	</script>
+</head>
+<style>
+	body {
+		font-family: 'Roboto Slab', serif;
+		background-color: #212121;
+		color: #EEEEEE;
+	}
+
+	.container {
+		display: grid;
+		grid-template-rows: auto auto;
+		text-align: center;
+	}
+
+	.container > div {
+		text-align: center;
+		padding: 20px 0;
+		font-size: 30px;
+	}
+
+	.ui-menu .ui-menu-item {
+		margin: 20px;
+	}
+
+</style>
+<body>
+	<div class="container">
+		<div class="titleBar">CSCI 431: Computer Graphics</div>
+
+		<ul id="menu" class="menuBar">
+		</ul>
+	</div>
+</body>
+</html>
