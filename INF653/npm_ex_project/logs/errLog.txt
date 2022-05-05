@@ -1,1 +1,3 @@
 20220502	16:13	56d29105-1ce8-48e5-8c8f-68d823f205c1	Error: Not allowed by CORS
+20220502	19:06	8b6487c2-d4e3-42f1-b824-4401463886d5	TypeError: Cannot read properties of undefined (reading 'get')
+20220502	19:25	65581e12-d8a7-4eb8-ae1a-f6281dd054cd	ReferenceError: res is not defined
